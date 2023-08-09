@@ -4,3 +4,6 @@ const map = (arr, fn) => {
     }
     return arr
 }
+// OR JUST USE MAP METHOD BUT THIS TEACHES YOU HOW TO ITERATE OVER EACH ELEMENT IN AN ARRAY AND ALTER EACH ONE
+
+const map = (arr, fn) => arr.map((n) => fn(arr[i], i))
